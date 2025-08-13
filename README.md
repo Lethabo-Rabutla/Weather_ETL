@@ -113,6 +113,3 @@ python main.py
 * Recent Computer Science Graduate
 * Specializing in **Software Development, Data Engineering, and ETL Pipelines**
 * GitHub: [https://github.com/Lethabo-Rabutla](https://github.com/Lethabo-Rabutla)
-
-
-If you want, I can also **add a small “Technical Architecture Diagram” section** in ASCII or Mermaid syntax for your README. It makes it look extremely professional for recruiters. Do you want me to do that?
