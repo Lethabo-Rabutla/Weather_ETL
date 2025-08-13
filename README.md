@@ -24,7 +24,7 @@ A robust **Python-based ETL (Extract, Transform, Load) pipeline** that automatic
 * **PostgreSQL** — relational database storage
 * **Requests** — API integration
 * **dotenv** — secure configuration via `.env` files
-* **Airflow (optional)** — scheduling and orchestration
+* **Airflow** — scheduling and orchestration
 
 ## **Project Structure**
 
@@ -35,7 +35,7 @@ Weather_ETL/
 ├── plots/                    # Folder for generated plots
 ├── requirements.txt          # Project dependencies
 ├── .env                      # Environment variables (API keys, DB credentials)
-└── airflow_dags/             # Optional Airflow DAGs for scheduling ETL tasks
+└── airflow_dags/             # Airflow DAGs for scheduling ETL tasks
 ```
 
 ## **Setup Instructions**
@@ -85,7 +85,7 @@ python main.py
 * `<City>_temperature_trend.png`
 * `<City>_temperature_heatmap.png`
 
-7. **(Optional) Schedule ETL via Airflow**
+7. **Schedule ETL via Airflow**
 
 * Place `weather_etl_dag.py` in your Airflow `dags/` folder.
 * Configure Airflow variables/connections for API\_KEY and database credentials.
@@ -98,13 +98,6 @@ python main.py
 * **Data-Driven Insights:** Line plots and heatmaps provide actionable insights at a glance.
 * **Scalable:** Easily extendable to more cities or additional weather parameters.
 * **Production-Ready:** Can be scheduled with **Airflow** for automated, recurring ETL tasks.
-
-## **Future Enhancements**
-
-* Integrate **real-time alerts** for extreme weather conditions.
-* Add support for **historical weather data** storage and analysis.
-* Containerize the project using **Docker** for cloud deployment.
-* Extend Airflow DAGs to include **data quality checks** and **email notifications**.
 
 ## **Author**
 
